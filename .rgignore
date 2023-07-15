@@ -1,0 +1,25 @@
+# Ignore AppData folder in Windows
+AppData
+
+# Ignore node_modules folder
+**/node_modules
+
+# Ignore lib, Lib, and Library folders
+lib
+Lib
+Library
+
+# Ignore Pictures
+Pictures
+
+# Ignore Dropbox folder
+Dropbox
+
+# Ignore OneDrive folder in Windows
+OneDrive
+
+# Ignore PRIVATE folder
+PRIVATE
+
+# Ignore files with extension .dat
+*.dat*

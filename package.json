@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "name": "check-balances",
+  "version": "1.0.0",
+  "main": "check-balances.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "find-keys": "ts-node --transpile-only src/find-keys.ts",
+    "find-keys-stream": "ts-node --transpile-only src/find-keys-stream.ts",
+    "balances": "ts-node --transpile-only src/balances.ts",
+    "watch-reservses": "node dist/watch-reserves.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/70a895e21f874a17b3151db78688f1bf.git"
+  },
+  "author": "natethagreat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/70a895e21f874a17b3151db78688f1bf"
+  },
+  "homepage": "https://gist.github.com/70a895e21f874a17b3151db78688f1bf",
+  "description": "",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "ethers": "^5.7.2"
+  }
+}
